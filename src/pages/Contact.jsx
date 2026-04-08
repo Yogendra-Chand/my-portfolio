@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 const SOCIALS = [
   { label:'GitHub',   icon:'⌨️', hint:'github.com/yogendra' },
   { label:'LinkedIn', icon:'💼', hint:'linkedin.com/in/yogendra-chand' },
-  { label:'Email',    icon:'📧', hint:'yogendraChand444@gmail.com' },
+  { label:'Email',    icon:'📧', hint:'https://mail.google.com/mail/u/0/#inbox' },
 ];
 
 export default function Contact() {
@@ -95,7 +95,7 @@ export default function Contact() {
               {sent ? (
                 <div style={{ display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', gap:16, padding:'48px 0', textAlign:'center' }}>
                   <div style={{ width:64, height:64, borderRadius:'50%', background:'rgba(0,255,224,0.1)', border:'1px solid rgba(0,255,224,0.3)', display:'flex', alignItems:'center', justifyContent:'center', fontSize:'1.8rem' }}>✅</div>
-                  <h3 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:'2rem', color:'var(--text)', letterSpacing:'.05em' }}>Message Sent!</h3>
+                  <h3 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:'2rem', color:'var(--text)', letterSpacing:'.05em' }}>Opps sorry Please send message to this email:yogendrachand444@gmail.com</h3>
                   <p style={{ color:'rgba(204,217,240,0.5)', fontSize:'.88rem', maxWidth:280, lineHeight:1.6 }}>
                     Thanks for reaching out! I'll get back to you within 24 hours.
                   </p>

@@ -9,7 +9,7 @@ export default function Footer() {
         </span>
       </NavLink>
       <p style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: '.7rem', color: 'var(--muted)', marginTop: 10, letterSpacing: '.08em' }}>
-      2026
+      जय श्री राम 2026
       </p>
     </footer>
   );

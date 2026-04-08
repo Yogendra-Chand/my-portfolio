@@ -34,11 +34,11 @@ export default function Navbar() {
         {/* Logo */}
         <NavLink to="/" style={{ textDecoration: 'none' }}>
           <span style={{ fontFamily: "'Bebas Neue', cursive", fontSize: '1.9rem', letterSpacing: '.1em', background: 'linear-gradient(130deg,#00ffe0,#7b61ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            CHand Ji<span style={{ color: '#00ffe0' }}>.</span>
+           Chand ji<span style={{ color: '#00ffe0' }}>.</span>
           </span>
         </NavLink>
 
-        {/* Desktop links */}
+ 
         <ul style={{ display: 'flex', gap: 36, listStyle: 'none', alignItems: 'center' }} className="desktop-nav">
           {LINKS.map(({ to, label }) => (
             <li key={to}>
@@ -54,7 +54,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* CTA */}
+     
         <NavLink
           to="/contact"
           style={{ textDecoration: 'none' }}

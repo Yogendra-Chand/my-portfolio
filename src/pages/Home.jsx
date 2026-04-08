@@ -34,10 +34,11 @@ export default function Home() {
               <span style={{ fontFamily:"'JetBrains Mono',monospace", fontSize:'.7rem', color:'var(--accent)', letterSpacing:'.15em' }}>AVAILABLE FOR WORK</span>
             </div>
 
-            <h1 className="anim-fsup s2" style={{ fontFamily:"'Bebas Neue',cursive", fontSize:'clamp(4rem,9vw,8rem)', lineHeight:.95, letterSpacing:'.02em', color:'var(--text)', marginBottom:8 }}>
-              YOGEN
-              <span className="g-text">DRA</span><br/>
-              <span style={{ fontSize:'clamp(1.6rem,4vw,3rem)', color:'var(--muted2)', letterSpacing:'.1em' }}>CHAND</span>
+            <h1 className="anim-fsup s2" style={{ fontFamily:"'Bebas Neue',cursive", fontSize:'clamp(4rem,9vw,8rem)', lineHeight:.95, letterSpacing:'.02em', color:'', marginBottom:8 }}>
+             यो
+              <span className="g-text">गेन्द्र</span>
+              <br/>
+              <span style={{ fontSize:'clamp(1.6rem,4vw,3rem)', color:'var(--muted2)', letterSpacing:'.1em' }}>चन्द</span>
             </h1>
 
             <p className="anim-fsup s3" style={{ fontFamily:"'JetBrains Mono',monospace", fontSize:'.78rem', color:'var(--muted2)', letterSpacing:'.18em', textTransform:'uppercase', marginBottom:20 }}>
@@ -78,7 +79,7 @@ export default function Home() {
               <div className="anim-glow" style={{ position:'absolute', inset:48, borderRadius:'50%', background:'linear-gradient(135deg,rgba(0,255,224,0.12),rgba(123,97,255,0.18))', border:'1px solid rgba(0,255,224,0.25)', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', overflow:'hidden' }}>
          
 <img 
-  src="/image.png"
+  src="/Image.png"
   alt="Yogendra"
   style={{
     width: "100%",
