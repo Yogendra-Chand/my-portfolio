@@ -79,7 +79,7 @@ export default function Home() {
               <div className="anim-glow" style={{ position:'absolute', inset:48, borderRadius:'50%', background:'linear-gradient(135deg,rgba(0,255,224,0.12),rgba(123,97,255,0.18))', border:'1px solid rgba(0,255,224,0.25)', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', overflow:'hidden' }}>
          
 <img 
-  src="/Image.png"
+  src="/Image.jpg"
   alt="Yogendra"
   style={{
     width: "100%",
